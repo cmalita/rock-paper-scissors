@@ -1,5 +1,4 @@
 import random
-import console
 import sys
 
 options = ["rock", "paper", "scissors"]
@@ -67,8 +66,6 @@ def get_winner(user_choice, computer_choice):
 		return 'user'
 	else:
 		return 'computer'
-
-console.clear()
 
 print("Rock, Paper, Scissors Game. Type quit to exit.\n\n")
 
